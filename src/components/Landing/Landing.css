@@ -1,0 +1,54 @@
+.section {
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+.landing-text {
+    font-style: normal;
+    text-align: left;
+
+}
+
+.landing-header {
+    font-weight: 500;
+    line-height: 47px;
+    font-size: 2rem;
+    letter-spacing: 0.065em;
+    color: #000000;
+}
+
+.landing-para {
+    margin-top: 30px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 146.8%;
+    letter-spacing: 0.09em;
+}
+
+.btn {
+    margin-top: 25px;
+    border: 2px solid #3A0CA3;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 146.8%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.09em;
+    color: #3A0CA3;
+}
+
+.img {
+    display: inline;
+    height: 500px;
+    margin-left: 200px;
+
+}
