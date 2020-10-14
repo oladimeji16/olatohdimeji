@@ -70,6 +70,7 @@
         text-align: center;
         z-index: 0;
         display: block;
+        margin-top: 20%;
     }
     .landing-header {
         line-height: 24px;
