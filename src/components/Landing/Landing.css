@@ -1,5 +1,5 @@
 .section {
-    padding: 40px;
+    padding: 60px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -10,7 +10,6 @@
 .landing-text {
     font-style: normal;
     text-align: left;
-
 }
 
 .landing-header {
@@ -48,7 +47,46 @@
 
 .img {
     display: inline;
-    height: 500px;
+    height: 400px;
     margin-left: 200px;
+}
 
+@media screen and (max-width: 1024px) {
+    .img {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+    .landing-text {
+        text-align: center;
+        z-index: 0;
+        display: block;
+    }
+    .landing-header {
+        line-height: 24px;
+        font-size: 1rem;
+    }
+    .landing-para {
+        font-size: 17px;
+    }
+    .btn {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: block;
+        margin: 30px auto;
+        font-size: 16px;
+    }
+    .img {
+        height: 313px;
+        display: block;
+        align-self: center;
+        text-align: center;
+        margin: 1em auto;
+    }
 }
