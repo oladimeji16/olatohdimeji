@@ -17,7 +17,6 @@ function Landing() {
         <div className="img">
             <img src={me} alt="Me" className='img'/>
         </div>
-
     </section>
     
 }

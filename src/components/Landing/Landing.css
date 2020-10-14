@@ -5,11 +5,13 @@
     text-align: center;
     margin: auto;
     display: flex;
+    box-shadow: 0 20px #3A0CA3;
 }
 
 .landing-text {
     font-style: normal;
     text-align: left;
+    margin-top: 5%;
 }
 
 .landing-header {
@@ -48,7 +50,9 @@
 .img {
     display: inline;
     height: 400px;
-    margin-left: 200px;
+    margin: 0  10px 0 200px;
+    margin-top: 5%;
+
 }
 
 @media screen and (max-width: 1024px) {
