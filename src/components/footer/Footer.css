@@ -1,0 +1,28 @@
+.footer {
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: #fafafa;
+}
+
+.foo {
+    
+    font-size: 24px;
+    color: #3A0CA3;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+}
+
+.twit {
+    font-weight: 400;
+    color: #3A0CA3;
+}
+
+@media screen and (max-width: 960px) {
+    .foo {
+        font-size: 16px;
+    }
+}
+

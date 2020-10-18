@@ -28,7 +28,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #3A0CA3;
+    background-color: #3A0CA3;
 }
 
 .about-text {
@@ -84,7 +84,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #3A0CA3;
+    background-color: #3A0CA3;
 }
 
 .skills-p {
@@ -106,7 +106,7 @@
     height: 3px;
     margin: 0 0 0 1em;
     text-align: center;
-    background: #3A0CA3;
+    background-color: #3A0CA3;
 }
 
 @media screen and (max-width: 960px) {

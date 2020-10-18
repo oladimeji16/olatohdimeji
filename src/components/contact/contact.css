@@ -1,0 +1,120 @@
+.contact {
+    padding: 60px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.head {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 146.8%;
+    text-align: left;
+    letter-spacing: 0.065em;
+    color: black;
+}
+
+.head::after {
+    box-sizing: border-box;
+    content: '';
+    display: block;
+    width: 50%;
+    height: 3px;
+    justify-content: center;
+    text-align: center;
+    background-color: #3A0CA3;
+}
+
+.cont {
+    background-color: #CDC2E8;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    margin: 40px;
+    border-radius: 10px;
+    width: 30rem;
+    margin-left: 370px;
+
+}
+
+.email {
+    background-color: #CDC2E8;
+}
+
+.p {
+    margin: 20px;
+    background-color: #CDC2E8;
+    color: #fafafa;
+    font-size: 1.2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.con {
+    background-color: #CDC2E8;
+}
+.con a {
+    margin: 20px;
+    padding: 5px 40px 5px 40px;
+    background-color: #CDC2E8;
+    color: #3A0CA3;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px solid #3A0CA3;
+}
+
+.con:hover, .con a:hover {
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    transition: all 0.5s ease-out ;
+}
+
+.fab {
+    font-size: 24px;
+    color: #fafafa;
+    padding: 20px;
+    background-color: #CDC2E8;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+}
+
+@media screen and (max-width: 960px) {
+
+    .head {
+        font-size: 24px;
+    }
+    .cont{
+        margin-left: 0;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .email{
+        font-size: 14px;
+    }
+
+    .p {
+        font-size: 0.95rem;
+        line-height: 1.5rem;
+    }
+
+
+
+    .con a{
+        font-size: 10px;
+    }
+
+    .fab {        
+        font-size: 16px;
+        padding: 10px;
+        float: unset;
+    }
+
+}
