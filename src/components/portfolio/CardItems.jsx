@@ -1,17 +1,18 @@
-import mouna from './images/Mouna.png'
-import pactani from './images/Pactani.png'
-import school from './images/School.png'
 
 const CardItems = [
     {
-        src: {mouna},
+        id: 1,
+        src: '/images/mouna.png',
+        desc: 'product',
         title: 'MOUNACHOPS',
         para: 'Mounachops is a Snacking startup that delivers snacks to all locations in Ilorin, Kwara, Nigeria.',
         status: 'Coming Soon',
         nav: ''
     },
     {
-        src: {pactani},
+        id: 2,
+        src: '/images/pactani.png',
+        desc:'product',
         title: 'PACTANI',
         para: 'Pactani is a customer budget focused travel agency located in Lagos, Nigeria.',
         status: 'Coming Soon',
@@ -19,13 +20,15 @@ const CardItems = [
 
     },
     {
-        src: {school},
+        id: 3,
+        src: '/images/school.png',
+        desc: 'product',
         title: 'SCHOOL APP',
         para: 'Is a mobile app that helps students stay up-to-date with their school activites. built with Flutter.',
         status: 'Check Out',
         nav: '#'
     }
-        
+
 ]
 
 export default CardItems

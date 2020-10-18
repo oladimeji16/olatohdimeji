@@ -34,6 +34,7 @@
 }
 
 .in-container {
+    margin: 30px;
     border-radius: 15px;
     box-shadow: 1px -1px #CDC2E8,
     -1px 1px #CDC2E8,
@@ -44,10 +45,7 @@
 }
 
 .in-img {
-    float: left;
-    padding-right: 40px;
-    height: 100px;
-    width: 100%;
+    align-self: center;
 }
 
 .in-header {
@@ -72,14 +70,14 @@
 
     .in-container {
         margin-right: 0;
-        height: 300px;
+        height: 350px;
         width: 100%;
         margin-bottom: 10%;
         
     }
 
     .in-nav, .in-nav a {
-        margin-top: 10px;
+        margin-bottom: 0;
         padding: 0;
     }
 }
