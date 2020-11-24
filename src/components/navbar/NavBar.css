@@ -1,7 +1,6 @@
 .NavBarItems {
     position: fixed;
-    width: 90%;
-    background-color: #fafafa;
+    width: 100%;
     /* border: 2px solid #3A0CA3; */
     height: 80px;
     width: 100%;
@@ -11,12 +10,7 @@
     text-align: center;
     margin-bottom: 20px;
     font-size: 1.2rem;
-    border: 1px solid #3A0CA3;
-    box-shadow: -1px 1px #CDC2E8,
-    -2px 2px #CDC2E8,
-    -3px 3px #CDC2E8,
-    -4px 4px #CDC2E8,
-    -5px 5px #CDC2E8;
+    border: 1px solid #CDC2E8;
 }
 
 .navbar-logo {
@@ -27,10 +21,9 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.005em;
-    color: #3A0CA3;
+    color: #CDC2E8;
     justify-self: start;
     font-family: 'Monoton', cursive;
-    margin-left: 20px;
     cursor: pointer;
     
 }
@@ -43,23 +36,21 @@
     text-align: center;
     width: 70vw;
     justify-content: end;
-    margin-right: 1em;
 }
 
 .nav-links {
     text-decoration: none;
-    padding: 0.5rem;
+    padding: 0.5em;
 }
 
 .nav-links:hover {
-    text-decoration: underline #3A0CA3;
-    color: #3a0ca3;
+    color: #000000;
     transition: all 0.5s ease-in-out;
 }
 
 .fa-bars {
-    color: #3A0CA3;
-    border: 3px solid #3A0CA3;
+    color:#CDC2E8;
+    border: 3px solid #CDC2E8;
     padding: 10px;
 }
 
@@ -87,7 +78,7 @@
         transition: all 0.5s ease;
     }
     .nav-menu.active {
-        background: transparent;
+        background: #CDC2E8;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -120,7 +111,7 @@
         cursor: pointer;
     }
     .fa-times {
-        color: #3A0CA3;
+        color:#CDC2E8;
         font-size: 2rem;
     }
 }

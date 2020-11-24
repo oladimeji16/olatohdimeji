@@ -2,8 +2,7 @@
     padding: 60px;
     text-align: center;
     justify-content: center;
-
-
+    box-shadow: 0 0.5px #CDC2E8;
 }
 
 .head {
@@ -14,7 +13,6 @@
     line-height: 146.8%;
     text-align: left;
     letter-spacing: 0.065em;
-    color: black;
 }
 
 .head::after {
@@ -25,7 +23,7 @@
     height: 3px;
     justify-content: center;
     text-align: center;
-    background-color: #3A0CA3;
+    background-color: #CDC2E8;
 }
 
 .cont {
@@ -63,10 +61,10 @@
     margin: 20px;
     padding: 5px 40px 5px 40px;
     background-color: #CDC2E8;
-    color: #3A0CA3;
+    color: #CDC2E8;
     font-size: 16px;
     text-decoration: none;
-    border: 1px solid #3A0CA3;
+    border: 1px solid #CDC2E8;
 }
 
 .con:hover, .con a:hover {

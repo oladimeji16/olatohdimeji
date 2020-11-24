@@ -9,7 +9,8 @@ function About() {
             <p className='para1'>I am a Nigerian based UI/UX Designer, Front-end and Mobile Developer.</p>
             <p className='para2'>For the past few years I have been building awesome digital projects mostly for myself <span aria-label='wink' role='img'>😉</span> and clients, I am a goal-driven person who ensures client satisfaction while advising them on the proper step to take to achieve more productivity in their businesses.</p>
             <Button className='btn'>Contact Me</Button>
-        </div>    
+        </div>
+        <hr/>  
         <div className="skills-part">
             <h2 className='skills'>Skills</h2>
             <p className='skills-p'>CSS</p>
@@ -20,7 +21,7 @@ function About() {
             <p className='skills-p'>Javascript(ES6)</p>
             <p className='skills-p'>React.js</p>
         </div>
-        <hr/>
+        
     </section>
     
 }

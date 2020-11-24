@@ -1,9 +1,10 @@
-.portfolio{
+.portfolio {
     padding: 60px;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: auto;
+    box-shadow: 0 0.5px #CDC2E8;
 }
 
 .portheading {
@@ -14,10 +15,9 @@
     line-height: 146.8%;
     text-align: left;
     letter-spacing: 0.065em;
-    color: black;
 }
 
-.portheading::after{
+.portheading::after {
     box-sizing: border-box;
     content: '';
     display: block;
@@ -25,21 +25,21 @@
     height: 3px;
     justify-content: center;
     text-align: center;
-    background-color: #3A0CA3;
+    background-color: #CDC2E8;
 }
 
 .container {
-    display: flex;
     margin-top: 40px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
 
 .in-container {
     margin: 30px;
     border-radius: 15px;
-    box-shadow: 1px -1px #CDC2E8,
-    -1px 1px #CDC2E8,
-    2px -2px #CDC2E8,
-    -2px 2px #CDC2E8;
+    box-shadow: 1px -1px #CDC2E8, -1px 1px #CDC2E8, 2px -2px #CDC2E8, -2px 2px #CDC2E8;
     padding: 20px;
     text-align: center;
 }
@@ -49,14 +49,14 @@
 }
 
 .in-header {
-    color: #3A0CA3;
+    color: #CDC2E8;
     padding-bottom: 10px;
 }
 
 .in-nav, .in-nav a {
     float: right;
     margin-top: 30px;
-    color: #3A0CA3;
+    color: #CDC2E8;
     cursor: pointer;
     text-decoration: none;
 }
@@ -67,18 +67,14 @@
         flex-direction: column;
         align-items: center;
     }
-
     .in-container {
         margin-right: 0;
         height: 350px;
         width: 100%;
         margin-bottom: 10%;
-        
     }
-
     .in-nav, .in-nav a {
         margin-bottom: 0;
         padding: 0;
     }
 }
-
