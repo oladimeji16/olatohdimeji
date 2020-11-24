@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import MenuItems from './MenuItems'
+
 import './NavBar.css'
 
 
@@ -13,8 +13,8 @@ class NavBar extends Component {
     render() {
         return <div className='NavBar'>
         <nav className='NavBarItems'>
-            <h1 className="navbar-logo">MA</h1>
-            <div className="menu-icon" onClick={this.handleClick}>
+            <h1 className="navbar-logo">Olatohdimeji</h1>
+            {/* <div className="menu-icon" onClick={this.handleClick}>
                 <i 
                 className={
                     this.state.clicked ? 
@@ -31,7 +31,7 @@ class NavBar extends Component {
                     )
                 })}
 
-            </ul>
+            </ul> */}
         </nav>
     </div>
     }

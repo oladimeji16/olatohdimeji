@@ -1,5 +1,5 @@
 .section {
-    padding: 60px;
+    padding: 0 60px 60px 60px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -11,7 +11,6 @@
 .landing-text {
     font-style: normal;
     text-align: left;
-    margin-top: 5%;
 }
 
 .landing-header {
@@ -23,7 +22,7 @@
 }
 
 .landing-para {
-    margin-top: 30px;
+    margin-top: 25px;
     font-family: Work Sans;
     font-style: normal;
     font-weight: normal;
@@ -51,8 +50,6 @@
     display: inline;
     height: 400px;
     margin: 0  10px 0 200px;
-    margin-top: 5%;
-
 }
 
 @media screen and (max-width: 1024px) {

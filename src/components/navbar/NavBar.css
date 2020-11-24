@@ -1,8 +1,8 @@
-.NavBarItems {
+/* .NavBarItems {
     position: fixed;
     width: 100%;
     /* border: 2px solid #3A0CA3; */
-    height: 80px;
+    /* height: 80px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -10,25 +10,26 @@
     text-align: center;
     margin-bottom: 20px;
     font-size: 1.2rem;
-    border: 1px solid #CDC2E8;
-}
+    border: 1px solid #CDC2E8; 
+}*/
 
 .navbar-logo {
     font-style: normal;
     font-weight: normal;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 37px;
     display: flex;
     align-items: center;
-    letter-spacing: 0.005em;
+    margin: 50px 0 0 50px;
     color: #CDC2E8;
     justify-self: start;
-    font-family: 'Monoton', cursive;
+    font-family: 'Stalemate', cursive;
     cursor: pointer;
+    padding-top: 20px;
     
 }
 
-.nav-menu {
+/* .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
@@ -60,7 +61,7 @@
 
 .menu-icon {
     display: none;
-}
+} */
 
 @media screen and (max-width: 960px) {
     .NavBarItems {
