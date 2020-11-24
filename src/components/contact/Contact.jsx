@@ -12,7 +12,7 @@ function Contact() {
             <strong className='email'> [ olatohdimeji16@gmail.com ]</strong> or click the button below to talk to me.</p>
             <span className="con"><a href='mailto:olatohdimeji16@gmail.com'>Talk to Me</a></span>
             <a href="https://www.github.com/oladimeji16"><i className="fab fa-github"></i></a>
-                <a href=""><i className="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/abdullah-mustapha-699313185"><i className="fab fa-linkedin"></i></a>
                 <a href="https://www.twitter.com/olatohdimeji"><i className="fab fa-twitter"></i></a>
             
         </div>
