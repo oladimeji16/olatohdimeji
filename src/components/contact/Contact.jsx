@@ -11,9 +11,9 @@ function Contact() {
             <p className='p'>I am currently available for new job opportunities and would be more than excited to join your team or discuss your next project with you. Send an email to
             <strong className='email'> [ olatohdimeji16@gmail.com ]</strong> or click the button below to talk to me.</p>
             <span className="con"><a href='mailto:olatohdimeji16@gmail.com'>Talk to Me</a></span>
-            <a href=""><i className="fab fa-github"></i></a>
+            <a href="https://www.github.com/oladimeji16"><i className="fab fa-github"></i></a>
                 <a href=""><i className="fab fa-linkedin"></i></a>
-                <a href=""><i className="fab fa-twitter"></i></a>
+                <a href="https://www.twitter.com/olatohdimeji"><i className="fab fa-twitter"></i></a>
             
         </div>
         <div className="socio">
