@@ -29,11 +29,10 @@
 }
 
 .container {
-    margin-top: 40px;
     margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 
 .in-container {
@@ -44,9 +43,9 @@
     text-align: center;
 }
 
-.in-img {
-    align-self: center;
-}
+/* .in-img {
+    /* align-self: center; */
+
 
 .in-header {
     color: #CDC2E8;

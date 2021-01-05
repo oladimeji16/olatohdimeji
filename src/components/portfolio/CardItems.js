@@ -26,7 +26,7 @@ const CardItems = [
         title: 'SCHOOL APP',
         para: 'Is a mobile app that helps students stay up-to-date with their school activites. built with Flutter.',
         status: 'Download',
-        nav: '#'
+        nav: 'https://play.google.com/store/apps/details?id=com.oladimeji.school'
     },
     {
         id: 4,

@@ -17,11 +17,11 @@
     transition: 250ms;
 }
 
-.btn--primary {
+.btn__primary {
     background-color: #584E64;
 }
 
-.btn--outline {
+.btn__outline {
     background-color: transparent;
     color:#CDC2E8;
     padding: 5px 40px 5px 40px;
@@ -30,14 +30,14 @@
     transition: all 0.5s ease-out;
 }
 
-.btn--medium {
+.btn__medium {
     padding: 5px 40px 5px 40px;
     border-radius: none;
     font-size: 18px;
     color:#CDC2E8;
 }
 
-.btn--large {
+.btn__large {
     padding: 5px 40px 5px 40px;
     border-radius: none;
     font-size: 24px;

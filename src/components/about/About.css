@@ -1,175 +1,161 @@
 .about {
-    padding: 60px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    display: flex;
-    box-shadow: 0 0.5px #CDC2E8;
+  padding: 60px;
+  margin: auto;
+  display: flex;
+  box-shadow: 0 0.5px #cdc2e8;
 }
 
-.heading {
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 146.8%;
-    /* identical to box height, or 53px */
-    text-align: left;
-    letter-spacing: 0.065em;
+.about__heading {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 146.8%;
+  text-align: left;
+  letter-spacing: 0.065em;
 }
 
-.heading::after {
-    box-sizing: border-box;
-    content: '';
-    display: block;
-    width: 13%;
-    height: 3px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color:#CDC2E8;
+.about__heading::after {
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  width: 13%;
+  height: 3px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #cdc2e8;
 }
 
-.about-text {
-    text-align: left;
-    margin-right: 100px;
-    width: 60%;
+.about__text {
+  text-align: left;
+  margin-right: 100px;
+  width: 60%;
 }
 
-.para1 {
-    margin: 40px 0 20px 0;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 146.3%;
-    /* or 35px */
-    letter-spacing: 0.11em;
+.about__para1 {
+  margin: 40px 0 20px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 146.3%;
+  /* or 35px */
+  letter-spacing: 0.11em;
 }
 
-.para2 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 146.3%;
-    /* or 35px */
-    letter-spacing: 0.11em;
+.about__para2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 146.3%;
+  /* or 35px */
+  letter-spacing: 0.11em;
 }
 
-.skills-part {
-    text-align: right;
-    height: 400px;
-    width: 40%;
+.about__skillsPart {
+  text-align: right;
+  height: 400px;
+  width: 40%;
 }
 
-.skills {
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 146.8%;
-    letter-spacing: 0.065em;
-    text-align: right;
+.about__skills {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 146.8%;
+  letter-spacing: 0.065em;
+  text-align: right;
 }
 
-.skills::after {
-    box-sizing: border-box;
-    content: '';
-    display: inline-block;
-    width: 10%;
-    height: 3px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #CDC2E8;
+.about__skills::after {
+  box-sizing: border-box;
+  content: "";
+  display: inline-block;
+  width: 10%;
+  height: 3px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #cdc2e8;
 }
 
-.skills-p {
-    margin: 10px 0 5px 0;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 146.8%;
-    /* or 35px */
-    letter-spacing: 0.065em;
-    color: #CDC2E8;
+.about__skills-p {
+  margin: 10px 0 5px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 146.8%;
+  /* or 35px */
+  letter-spacing: 0.065em;
+  color: #cdc2e8;
 }
 
-.skills-p::after {
-    box-sizing: border-box;
-    content: '';
-    display: inline-flex;
-    width: 5%;
-    height: 3px;
-    margin: 0 0 0 1em;
-    text-align: center;
-    background-color: #CDC2E8;
+.about__skills-p::after {
+  box-sizing: border-box;
+  content: "";
+  display: inline-flex;
+  width: 5%;
+  height: 3px;
+  margin: 0 0 0 1em;
+  text-align: center;
+  background-color: #cdc2e8;
 }
 
 @media screen and (max-width: 960px) {
-    .about {
-        display: block;
-        flex-direction: column;
-        text-align: center;
-    }
-    .about-text {
-        width: 100%;
-        text-align: center;
-        z-index: 0;
-        display: block;
-    }
-    .heading {
-        line-height: 24px;
-        font-size: 2rem;
-
-    }
-    /* .heading::after {
+  .about {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+  }
+  .about__text {
+    width: 100%;
+    text-align: center;
+    z-index: 0;
+    display: block;
+  }
+  .about__heading {
+    line-height: 24px;
+    font-size: 2rem;
+  }
+  /* .heading::after {
         display: none;
     } */
-    .para1, .para2 {
-        font-size: 17px;
-    }
-    .btn {
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        display: block;
-        margin: 30px auto;
-        font-size: 16px;
-    }
-    .skills-part {
-        width: 100%;
-        height: 313px;
-        display: block;
-        align-self: center;
-        text-align: center;
-        margin: 1em auto;
-    }
-    .skills-p {
-        font-size: 17px;
-        display: block;
-        text-align: right;
-    }
+  .about__para1,
+  .about__para2 {
+    font-size: 17px;
+  }
+  .about__skillsPart {
+    width: 100%;
+    height: 313px;
+    display: block;
+    align-self: center;
+    text-align: center;
+    margin: 1em auto;
+  }
+  .about__skills-p {
+    font-size: 17px;
+    display: block;
+    text-align: right;
+  }
 
-    .skills-p::after {
-        box-sizing: border-box;
-        content: ' ';
-        display: inline-block;
-        width: 5%;
-        height: 3px;
-        margin: 0 0 0 1em;
-        text-align: right;
-        color:#CDC2E8;
-    }
+  .about__skills-p::after {
+    box-sizing: border-box;
+    content: " ";
+    display: inline-block;
+    width: 5%;
+    height: 3px;
+    margin: 0 0 0 1em;
+    text-align: right;
+  }
 
-    .skills::after {
-        box-sizing: border-box;
-        content: ' ';
-        display: inline-block;
-        width: 5%;
-        height: 3px;
-        margin: 0 0 0 1em;
-        text-align: right;
-        color:#CDC2E8;
-    }
+  .about__skills::after {
+    box-sizing: border-box;
+    content: " ";
+    display: inline-block;
+    width: 5%;
+    height: 3px;
+    margin: 0 0 0 1em;
+    text-align: right;
+  }
 }
