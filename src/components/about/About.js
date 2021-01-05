@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '../button/Button'
 import './About.css'
 function About() {
     return <section className="about">
