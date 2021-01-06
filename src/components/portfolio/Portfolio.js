@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 
 import AOS from "aos";
+import "aos/dist/aos.css";
 
 import pactani from "../../images/Pactanipre.png";
 import SchoolDesign from "../../images/Schoolredesign.png";
@@ -68,7 +69,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="portfolio__weather" data-aos="flip-left">
+        <div className="portfolio__weather" data-aos="fade-right">
           <hr />
           <h3 className="portfolio__title">Weather App</h3>
           <img className="portfolio__img" src={weather} alt="Project" />
@@ -84,7 +85,7 @@ const Portfolio = () => {
             <hr />
           </div>
         </div>
-        <div className="portfolio__recipfy" data-aos="flip-right">
+        <div className="portfolio__recipfy" data-aos="flip-left">
           <hr />
           <h3 className="portfolio__title">Recipfy App</h3>
           <img className="portfolio__img" src={recipfy} alt="Project" />

@@ -110,7 +110,7 @@
   }
   .about__text {
     width: 100%;
-    text-align: center;
+    text-align: left;
     z-index: 0;
     display: block;
   }
@@ -118,9 +118,6 @@
     line-height: 24px;
     font-size: 2rem;
   }
-  /* .heading::after {
-        display: none;
-    } */
   .about__para1,
   .about__para2 {
     font-size: 17px;
