@@ -31,12 +31,12 @@ const Portfolio = () => {
           <div className="portfolio__details pactani__details">
             <p className="portfolio__desc">
               A UX/UI design for Pactani, a customer budget focused travel
-              agency located in Lagos, Nigeria. <br /> Designed Using Figma
-              <i className="fab fa-figma figma__icon"></i>.
+              agency located in Lagos, Nigeria. <br /> Designed Using Figma.
             </p>
-            <a className='portfolio__link'
+            <a
+              className="portfolio__link"
               target="blank"
-              href="https://www.figma.com/file/RtAiANoekELrfJMOMBTjwu/School?node-id=0%3A1"
+              href="https://www.figma.com/file/urraRO1QTwEJEyoDRtybtV/PacTani?node-id=0%3A1"
             >
               <i className="portfolio__link fas fa-external-link-alt"></i>
             </a>
@@ -56,10 +56,10 @@ const Portfolio = () => {
             <p className="portfolio__desc">
               Is a mobile app concept design that helps students stay up-to-date
               with their school activites.
-              <br /> Designed Using Figma
-              <i className="fab fa-figma figma__icon"></i>.
+              <br /> Designed Using Figma.
             </p>
-            <a className='portfolio__link'
+            <a
+              className="portfolio__link"
               target="blank"
               href="https://www.figma.com/file/RtAiANoekELrfJMOMBTjwu/School?node-id=0%3A1"
             >
@@ -79,7 +79,11 @@ const Portfolio = () => {
               simple weather app that helps you do just that, <br /> Callling
               data from openweather.org's Api. <br /> Built with React.js.
             </p>
-            <a className='portfolio__link' target="blank" href="https://weather-app-react-omega.vercel.app">
+            <a
+              className="portfolio__link"
+              target="blank"
+              href="https://weather-app-react-omega.vercel.app"
+            >
               <i className="portfolio__link fas fa-external-link-alt"></i>
             </a>
             <hr />
@@ -95,7 +99,11 @@ const Portfolio = () => {
               from Recipfy App. Data from Edamam's Api. <br /> Built with
               React.js
             </p>
-            <a className='portfolio__link' target="blank" href="https://recipfy.vercel.app">
+            <a
+              className="portfolio__link"
+              target="blank"
+              href="https://recipfy.vercel.app"
+            >
               <i className="fas fa-external-link-alt"></i>
             </a>
             <hr />

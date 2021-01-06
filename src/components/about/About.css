@@ -1,6 +1,6 @@
 .about {
   padding: 60px;
-  margin: auto;
+  margin: 0;
   display: flex;
   box-shadow: 0 0.5px #cdc2e8;
 }
@@ -110,7 +110,7 @@
   }
   .about__text {
     width: 100%;
-    text-align: left;
+    text-align: center;
     z-index: 0;
     display: block;
   }
@@ -118,6 +118,9 @@
     line-height: 24px;
     font-size: 2rem;
   }
+  /* .heading::after {
+        display: none;
+    } */
   .about__para1,
   .about__para2 {
     font-size: 17px;
