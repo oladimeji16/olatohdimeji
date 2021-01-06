@@ -1,8 +1,5 @@
 .portfolio {
   padding: 60px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   margin: auto;
   box-shadow: 0 0.5px #cdc2e8;
   letter-spacing: 0.1em;
@@ -30,6 +27,42 @@
 
 .portfolio__container {
   padding: 50px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 40px;
+  grid-template-areas: 
+  "pactani pactani . ."
+  ". . school school"
+  'weather weather . .'
+  '. . recipfy recipfy';
+}
+
+.portfolio__school {
+  grid-area: school;
+  text-align: right;
+}
+
+.portfolio__weather {
+  grid-area: weather;
+}
+
+.portfolio__recipfy {
+  grid-area: recipfy;
+  text-align: right;
+}
+
+.portfolio__pactani {
+  grid-area: pactani;
+}
+
+.portfolio__title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.portfolio__details {
+  margin-top: 20px;
 }
 
 .portfolio__img {
@@ -38,110 +71,58 @@
   border-radius: 10px;
 }
 
-.portfolio__details {
-  margin: 24px;
-}
-
-.portfolio__pactani {
-  text-align: start;
-  justify-content: left;
-  margin: auto;
-  margin-bottom: 24px;
-  display: flex;
-}
-
-.portfolio__school {
-  text-align: end;
-  justify-content: right;
-  margin: auto;
-  margin-bottom: 24px;
-  display: flex;
-}
-
-.portfolio__weather {
-  text-align: start;
-  justify-content: left;
-  margin: auto;
-  margin-bottom: 24px;
-  display: flex;
-}
-
-.portfolio__recipfy {
-  text-align: end;
-  justify-content: right;
-  margin: auto;
-  display: flex;
-}
-
 .portfolio__link {
-  margin-top: 80px;
+  margin-top: 20px;
   font-size: 1.5rem;
   color: #fafafa;
 }
 .portfolio__link:hover {
   color: #cdc2e8;
 }
-.portfolio__title {
-  margin-bottom: 100px;
-  font-size: 1.5rem;
-  letter-spacing: 4px;
-}
-
 .figma__icon {
   margin-left: 10px;
   color: #cdc2e8;
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 960px) {
-  .portfolio__heading {
-    font-size: 24px;
-  }
+@media screen and (max-width: 760px) {
+  .portfolio__container {
+  padding: 50px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  grid-gap: 40px;
+  grid-template-areas: 
+  "pactani pactani pactani pactani"
+  "school school school school"
+  'weather weather weather weather'
+  'recipfy recipfy recipfy recipfy';
+}
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.portfolio__img {
+  width: 15rem;
+  height: 10rem;
+  border-radius: 10px;
+}
 
-  .portfolio__title {
-      margin-bottom: 100px;
-  }
+.portfolio__pactani {
+  text-align: left;
+}
 
-  .portfolio__details {
-    margin: 12px;
-  }
+.portfolio__school {
+  text-align: left;
+}
 
-  .portfolio__pactani {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin: auto;
-    margin-bottom: 12px;
-  }
+.portfolio__recipfy {
+  text-align: left;
+}
 
-  .portfolio__school {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.portfolio__weather {
+  text-align: left;
+}
 
-  .portfolio__weather {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.portfolio__link {
+  justify-content: left;
+}
 
-  .portfolio__recipfy {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .portfolio__img {
-    width: 100%;
-    height: 10rem;
-  }
 }
