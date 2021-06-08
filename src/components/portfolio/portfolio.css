@@ -3,6 +3,7 @@
   margin: auto;
   box-shadow: 0 0.5px #cdc2e8;
   letter-spacing: 0.1em;
+  width: 100%;
 }
 
 .portfolio__heading {
@@ -34,8 +35,8 @@
   grid-template-areas: 
   "pactani pactani . ."
   ". . school school"
-  'weather weather . .'
-  '. . recipfy recipfy';
+  "weather weather . ."
+  ". . recipfy recipfy";
 }
 
 .portfolio__school {

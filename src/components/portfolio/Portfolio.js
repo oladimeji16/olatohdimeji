@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import pactani from "../../images/Pactanipre.png";
 import SchoolDesign from "../../images/Schoolredesign.png";
 import weather from "../../images/weather.PNG";
-import recipfy from "../../images/recipfy.PNG";
+import netflix from "../../images/netflix.PNG";
 
 import "./portfolio.css";
 
@@ -68,7 +68,26 @@ const Portfolio = () => {
             <hr />
           </div>
         </div>
-
+        <div className="portfolio__recipfy" data-aos="flip-left">
+          <hr />
+          <h3 className="portfolio__title">Netflix-clone App</h3>
+          <img className="portfolio__img" src={netflix} alt="Project" />
+          <div className="portfolio__details">
+            <p className="portfolio__desc">
+              Pretty sure you know netflix, the movie streaming app, here is a
+              clone of it's layout and you get to watch movie trailers only.{" "}
+              <br /> Built with React.js
+            </p>
+            <a
+              className="portfolio__link"
+              target="blank"
+              href="https://recipfy.vercel.app"
+            >
+              <i className="fas fa-external-link-alt"></i>
+            </a>
+            <hr />
+          </div>
+        </div>
         <div className="portfolio__weather" data-aos="fade-right">
           <hr />
           <h3 className="portfolio__title">Weather App</h3>
@@ -85,26 +104,6 @@ const Portfolio = () => {
               href="https://weather-app-react-omega.vercel.app"
             >
               <i className="portfolio__link fas fa-external-link-alt"></i>
-            </a>
-            <hr />
-          </div>
-        </div>
-        <div className="portfolio__recipfy" data-aos="flip-left">
-          <hr />
-          <h3 className="portfolio__title">Recipfy App</h3>
-          <img className="portfolio__img" src={recipfy} alt="Project" />
-          <div className="portfolio__details">
-            <p className="portfolio__desc">
-              Cook sophisticated dishes in your kitchen by following recipes
-              from Recipfy App. Data from Edamam's Api. <br /> Built with
-              React.js
-            </p>
-            <a
-              className="portfolio__link"
-              target="blank"
-              href="https://recipfy.vercel.app"
-            >
-              <i className="fas fa-external-link-alt"></i>
             </a>
             <hr />
           </div>

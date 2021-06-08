@@ -3,11 +3,11 @@
     font-weight: normal;
     font-size: 3.5rem;
     line-height: 37px;
-    margin: 50px 0 0 50px;
+    margin: auto;
+    padding: 30px 0 30px 30px;
     color: #CDC2E8;
     justify-self: start;
     font-family: 'Stalemate', cursive;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 
